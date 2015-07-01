@@ -69,7 +69,6 @@
     [super viewDidLoad];
     geocoder = [[CLGeocoder alloc] init];
     strSelectedImage = @"";
-    // Do any additional setup after loading the view.
 }
 -(void)viewWillAppear:(BOOL)animated
 {
