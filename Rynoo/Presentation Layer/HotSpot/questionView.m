@@ -99,7 +99,6 @@
 -(void)setOrientationToLandscape
 {
     RLogs(@"setLandscape");
-    
     isPortrait = NO;
 }
 

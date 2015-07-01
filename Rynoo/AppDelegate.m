@@ -27,7 +27,7 @@
     
     //Register for push.
     
-    RLogs(@"App Path - %@", [Util sandboxPath]);
+    NSLog(@"App Path - %@", [Util sandboxPath]);
     
     self.aryHotspotSharedBO = [[NSMutableArray alloc]init];
     
