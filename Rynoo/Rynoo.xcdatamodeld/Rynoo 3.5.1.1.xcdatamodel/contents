@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Friends" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isContactSelectedForPost" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="screenName_s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Hotspot" representedClassName="Hotspot" syncable="YES">
+        <attribute name="audioFileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="audioFilePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="audioFileUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendsList" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotspotColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="orientation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="podId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xCoordinate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yCoordinate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="zoomScale" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="HotspotShareInfo" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="hotSpotId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Image" representedClassName="Image" syncable="YES">
+        <attribute name="imageCreatedTime" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="imgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncInitiated" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Interests" representedClassName="Interests" syncable="YES">
+        <attribute name="imgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interestName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="interestsToUserRel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserInfo" inverseName="usertoInterestsRel" inverseEntity="UserInfo" syncable="YES"/>
+    </entity>
+    <entity name="Pod" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="descriptionPod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="draft" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="imgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orientation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownership" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pictureTakenOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="published" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zoomscale" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Post" syncable="YES">
+        <attribute name="podId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SyncDates" syncable="YES">
+        <attribute name="syncDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="activated" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="activatedAt" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdatedAt" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preferredChannels" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="screenName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeZone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="usertoInterestsRel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Interests" inverseName="interestsToUserRel" inverseEntity="Interests" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Friends" positionX="117" positionY="144" width="128" height="135"/>
+        <element name="Hotspot" positionX="117" positionY="108" width="128" height="283"/>
+        <element name="HotspotShareInfo" positionX="117" positionY="144" width="128" height="103"/>
+        <element name="Image" positionX="117" positionY="135" width="128" height="150"/>
+        <element name="Interests" positionX="117" positionY="99" width="128" height="103"/>
+        <element name="Pod" positionX="117" positionY="135" width="128" height="270"/>
+        <element name="Post" positionX="117" positionY="144" width="128" height="75"/>
+        <element name="SyncDates" positionX="295" positionY="9" width="128" height="73"/>
+        <element name="UserInfo" positionX="-54" positionY="-9" width="128" height="268"/>
+    </elements>
+</model>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>005AE629-E03E-42B1-B7BA-59DBC2AF2CA9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rnyoo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>614DF42E08F4290CA7B87347E34841CCD3FCE4C3</key>
+		<string>https://github.com/rnyoo/rnyoo_ios_client.git</string>
+		<key>9ac9df62-d173-3e42-a51a-dae2a885b19f++5045</key>
+		<string>https://183.82.1.3:8443/svn/Mobile/iPhone/Rnyoo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rnyoo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>614DF42E08F4290CA7B87347E34841CCD3FCE4C3</key>
+		<string>../..</string>
+		<key>9ac9df62-d173-3e42-a51a-dae2a885b19f++5045</key>
+		<string>../../../Rnyoo</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>9ac9df62-d173-3e42-a51a-dae2a885b19f++5045</key>
+		<string>https://183.82.1.3:8443/svn/Mobile</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rnyoo/rnyoo_ios_client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>614DF42E08F4290CA7B87347E34841CCD3FCE4C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>614DF42E08F4290CA7B87347E34841CCD3FCE4C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GitHub</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9ac9df62-d173-3e42-a51a-dae2a885b19f++5045</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Rnyoo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
